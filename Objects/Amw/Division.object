@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"Divisions"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Plants_NAV",
+			"_Type": "Plant"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "Division",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "Description",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/MyApp/Services/Amw.service",
+	"_Name": "Division"
+}

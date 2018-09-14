@@ -1,0 +1,26 @@
+{
+	"Collection": [
+		"AcctIndicators"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "Confirmations",
+			"_Type": "Confirmation"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "AcctIndicator",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "AcctIndicatorDesc",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/MyApp/Services/Amw.service",
+	"_Name": "AcctIndicator"
+}

@@ -1,0 +1,5 @@
+{
+	"AppId": "ming.mdkapp",
+	"DestinationName": "DEST_SAM20_PPROP",
+	"ServiceUrl": "/destinations/mobileservices"
+}

@@ -1,0 +1,15 @@
+{
+	"ActivityIndicatorText": "Initializing My Offline OData",
+	"DefiningRequests": [
+		{
+			"AutomaticallyRetrievesStreams": false,
+			"Name": "MyWorkOrderHeaders",
+			"Query": "MyWorkOrderHeaders"
+		}
+	],
+	"OnFailure": "/MyApp/Actions/InitOfflineODataFailureToast.action",
+	"OnSuccess": "/MyApp/Actions/InitOfflineODataSuccessToast.action",
+	"Service": "/MyApp/Services/Amw.service",
+	"ShowActivityIndicator": true,
+	"_Type": "Action.Type.OfflineOData.Initialize"
+}

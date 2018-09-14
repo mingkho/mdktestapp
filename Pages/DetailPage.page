@@ -1,0 +1,22 @@
+{
+	"Caption": "$(L,'detailPageTitle')",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"ObjectHeader": {
+						"BodyText": "{OrderId}",
+						"DetailImageIsCircular": false,
+						"PreserveIconStackSpacing": true
+					},
+					"_Name": "SectionObjectHeader0",
+					"_Type": "Section.Type.ObjectHeader"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "ListPage",
+	"_Type": "Page"
+}

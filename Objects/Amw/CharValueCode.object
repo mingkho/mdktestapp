@@ -1,0 +1,36 @@
+{
+	"Collection": [
+		"CharValueCodes"
+	],
+	"NavigationProperties": [
+		{
+			"Key": false,
+			"_Name": "EquipCharValCode_Nav",
+			"_Type": "MyEquipClassCharValue"
+		},
+		{
+			"Key": false,
+			"_Name": "FuncLocCharValCode_Nav",
+			"_Type": "MyFuncLocClassCharValue"
+		}
+	],
+	"Properties": [
+		{
+			"Key": true,
+			"_Name": "ValueRel",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueCode1",
+			"_Type": "Edm.String"
+		},
+		{
+			"Key": false,
+			"_Name": "ValueCode2",
+			"_Type": "Edm.String"
+		}
+	],
+	"Service": "/MyApp/Services/Amw.service",
+	"_Name": "CharValueCode"
+}

@@ -1,0 +1,40 @@
+{
+	"ActionBar": {
+		"Items": [
+			{
+				"Position": "right",
+				"Text": "Test"
+			}
+		]
+	},
+	"Caption": "Main",
+	"Controls": [
+		{
+			"Sections": [
+				{
+					"EmptySection": {
+						"Caption": "Cannot Find Any Data"
+					},
+					"ObjectCell": {
+						"AccessoryType": "none",
+						"DetailImageIsCircular": false,
+						"OnPress": "/MyApp/Actions/NavToDetailPage.action",
+						"PreserveIconStackSpacing": true,
+						"Subhead": "$(DT,{LastChangeTime})",
+						"Title": "{OrderId}"
+					},
+					"Target": {
+						"EntitySet": "MyWorkOrderHeaders",
+						"Service": "/MyApp/Services/Amw.service"
+					},
+					"_Name": "SectionObjectTable0",
+					"_Type": "Section.Type.ObjectTable"
+				}
+			],
+			"_Name": "SectionedTable0",
+			"_Type": "Control.Type.SectionedTable"
+		}
+	],
+	"_Name": "Main",
+	"_Type": "Page"
+}
